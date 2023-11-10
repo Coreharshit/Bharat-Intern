@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #3da5f4, #fe934e); /* Gradient background */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to right, #e4afcb, #c7c1f5); /* Gradient background for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ff7f7f; /* Light red text color for labels */
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ffffff; /* White border for text boxes */
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000; /* Black text color for text boxes */
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+button {
+    background: linear-gradient(to right, #70e1f5, #ffd194); /* Gradient background for the button */
+    color: #ffffff; /* White text color for the button */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #3da5f4, #fe934e); /* Gradient background on hover */
+}
