@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Blog</title>
+</head>
+<body>
+  <h1>Welcome to the Blogging Website</h1>
+  <ul>
+    <% posts.forEach(post => { %>
+      <li><a href="/post/<%= post._id %>"><%= post.title %></a></li>
+    <% }); %>
+  </ul>
+  <a href="/newpost">Write a new post</a><br><br>
+  <img src="https://www.lifewire.com/thmb/A9JP7DO7H2eNsPLdhWhkl-_dAW4=/5000x3333/filters:fill(auto,1)/blogging--woman-reading-blog-887987150-5afa2f65ba61770036427de0.jpg" alt="image not present" width="500" height="333">
+</body>
+</html>
